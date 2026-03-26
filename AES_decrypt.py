@@ -1,3 +1,13 @@
+#basic AES decryption program that takes a Base64-encoded ciphertext and decrypts it using a hardcoded secret key in ECB mode.
+
+#It:
+#Decodes Base64 ciphertext
+#Decrypts it using AES (ECB mode)
+#Removes padding
+#Prints the original plaintext
+
+
+
 from Crypto.Cipher import AES
 import base64
 
