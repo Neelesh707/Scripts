@@ -1,3 +1,11 @@
+#full Blind SQL Injection automation tool that goes beyond just finding the length—it actually extracts the administrator’s password character by character.
+
+#It performs two main tasks:
+
+#(Optional) Find password length
+#(Main) Extract password one character at a time
+
+
 import requests
 url = 'https://0ae8007203c2280e81deac4000940075.web-security-academy.net/filter?category=Pets'
 
