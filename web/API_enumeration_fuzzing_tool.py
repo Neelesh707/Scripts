@@ -1,3 +1,11 @@
+#multi-phase web/API enumeration and fuzzing tool built for advanced penetration testing and CTF challenges. Compared to your previous script, this one is more structured and realistic, simulating how a real attacker probes an application.
+
+#It performs 4 major testing phases:
+#User-Agent based access testing
+# HTTP method fuzzing
+# Header-based bypass attempts
+# Sensitive file discovery
+
 #!/usr/bin/env python3
 """
 Enumerate SecureChat endpoints and test for insecure design
