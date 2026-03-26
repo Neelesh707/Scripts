@@ -1,3 +1,13 @@
+# This script is a comprehensive API endpoint fuzzer designed for security testing, CTF challenges, and penetration testing. It automates the process of discovering hidden, misconfigured, or vulnerable API endpoints in a web application
+#It systematically:
+
+#Discovers API endpoints
+#Tests different HTTP methods (GET, POST)
+# Attempts authentication bypass
+ #Fuzzes parameters
+# Identifies sensitive data leaks
+
+
 #!/usr/bin/env python3
 """
 Comprehensive API endpoint fuzzer for SecureChat
