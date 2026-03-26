@@ -1,3 +1,11 @@
+#This script is a brute-force XOR decryption tool used in cryptography challenges (CTFs), reverse engineering, and basic malware analysis to recover hidden plaintext when the encryption key is partially known.
+#It tries to decrypt an XOR-encrypted message by guessing the last character of the key.
+
+#Known part of key: "KEY_"
+#Unknown part: 1 character (A–Z, a–z, 0–9)
+#Total possibilities: 62 keys
+
+
 import string
 import base64
 
